@@ -2,7 +2,7 @@ import { bottombarLinks } from '@/constants';
 import { Link, useLocation } from 'wouter';
 
 const Bottombar = () => {
-  const [location, setLocation] = useLocation();
+  const [location] = useLocation();
 
   return (
     <section className="bottom-bar">

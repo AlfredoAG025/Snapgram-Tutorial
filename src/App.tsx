@@ -1,6 +1,6 @@
 import './globals.css';
 
-import { Redirect, Route, Switch } from 'wouter';
+import { Route, Switch } from 'wouter';
 import { AllUsers, CreatePost, EditPost, Explore, Home, PostDetails, Profile, Saved, UpdateProfile } from './_root/pages';
 import Login from './_auth/pages/Login';
 import Register from './_auth/pages/Register';

@@ -38,7 +38,7 @@ const PostForm = ({ action, post }: PostFormProps) => {
 
     const { toast } = useToast();
 
-    const [location, setLocation] = useLocation();
+    const [, setLocation] = useLocation();
 
     const form = useForm<z.infer<typeof PostValidation>>({
         resolver: zodResolver(PostValidation),
